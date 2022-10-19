@@ -1,0 +1,26 @@
+{
+  "name": "hospital-mng-sys-style",
+  "version": "1.0.0",
+  "description": "Styling repo for hms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyCROW21/hospital-mng-sys-style.git"
+  },
+  "keywords": [
+    "css",
+    "submodule"
+  ],
+  "author": "Hardik Kardam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazyCROW21/hospital-mng-sys-style/issues"
+  },
+  "homepage": "https://github.com/LazyCROW21/hospital-mng-sys-style#readme",
+  "dependencies": {
+    "primeflex": "^3.2.1"
+  }
+}

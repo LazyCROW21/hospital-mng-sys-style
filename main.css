@@ -1,0 +1,102 @@
+@import url('./resources/themes/mdc-light-deeppurple/theme.css');
+@import url('./resources/primeng.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: var(--purple-100);
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.auth-tabs {
+    width: 50%;
+}
+
+.auth-tabs a {
+    width: 100%;
+}
+
+.block-btn button {
+    width: 100%;
+}
+
+.p-inputwrapper input {
+    width: 100%;
+}
+
+p-inputnumber, .p-inputnumber, p-treeselect {
+    display: block !important;
+    width: 100%;
+}
+.p-treeselect {
+    width: 100%;
+}
+
+.p-element .p-accordion-tab {
+    margin-bottom: 1rem !important;
+}
+
+.p-accordion-header .p-accordion-header-text {
+    font-weight: bold;
+}
+
+.p-sidebar-close-icon {
+    color: white !important;
+}
+
+.p-fieldset-legend {
+    margin-left: 2rem;
+}
+
+.p-fieldset-toggleable {
+    padding: 0.75rem 0.25rem;
+}
+
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-table th, .my-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.my-table th {
+    text-align: right;
+}
+
+.my-table td {
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
